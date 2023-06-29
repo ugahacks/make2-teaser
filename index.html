@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="UGAHacks is a 501 (c)(3) organization that hosts an annual 48-hour programming hackathon that takes place in Athens, Georgia at the University of Georgia."
+    />
+
+    <title>Makeathon 2</title>
+  </head>
+  <body>
+    <div class="canvas-container">
+      <div id="bg"></div>
+      <div class="hero">
+        <img
+          class="logo"
+          src="/makeathon white transparent.png"
+          alt="makeathon 2 logo"
+        />
+        <h1>site under construction // coming october 2023</h1>
+        <div class="social"></div>
+      </div>
+    </div>
+
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/vendor/three.r134.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.waves.min.js"></script>
+    <script type="text/javascript">
+      VANTA.WAVES({
+        el: "#bg",
+        mouseControls: false,
+        touchControls: false,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0xd0e22,
+        shininess: 0.0,
+        waveHeight: 22.0,
+        waveSpeed: 1.1,
+        zoom: 0.65,
+      });
+    </script>
+  </body>
+</html>
